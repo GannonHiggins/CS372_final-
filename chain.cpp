@@ -21,7 +21,7 @@ void Handler1::handle(int i){
         Base::handle(i);
     }
     else{
-        std::cout<<"Person1 handledd all the tasks " << i << " ";
+        std::cout<<"Person1 handled all the tasks " << i << " ";
     }
 }
 
@@ -32,7 +32,7 @@ void Handler2::handle(int i){
         Base::handle(i);
     }
     else{
-        std::cout<<"person2 handledd all the tasks " << i << " ";
+        std::cout<<"Person2 handled all the tasks " << i << " ";
     }
 }
 
@@ -43,6 +43,6 @@ void Handler3::handle(int i){
         Base::handle(i);
     }
     else{
-        std::cout<<"Person3 handledd all the tasks " << i << " ";
+        std::cout<<"Person3 handled all the tasks " << i << " ";
     }
 }
